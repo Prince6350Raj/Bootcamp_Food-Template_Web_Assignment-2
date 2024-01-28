@@ -97,12 +97,13 @@
     margin-top: 7px;
     margin-right: 70px;
     cursor: pointer;
-    color: white;
+    color: greenyellow;
     text-align: center;
     line-height: 40px;
     border:none;
     width: 100px;
     border-radius:0.5rem;
+    background-color: orange;
 }
 
 /* Food Section */
