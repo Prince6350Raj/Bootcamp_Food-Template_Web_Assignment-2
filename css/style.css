@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* First Header Section */
+
 .header-section{
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     height: 70px;
@@ -9,6 +15,7 @@
 }
 .logo{
     width: 20%;
+    margin-left: 70px;
 }
 .logo h4{
     text-align: center;
@@ -33,4 +40,91 @@
 }
 .social-icon i{
     padding-left: 10px;
+}
+
+/* Second Header Section */
+
+.container{
+    height:300px;
+    width: 100%;
+    background-color: #eee6cc;    
+}
+.content{
+    display: flex;
+    height:300px;
+    justify-content: space-around;
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-2 p{
+    color: orange;
+}
+.botton{
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border:none;
+    width: 100px;
+    border-radius:0.5rem;   
+}
+
+.home img{
+    height:300px;
+}
+
+/* Third Header Section */
+
+.third-header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 70px;
+    background-color:whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    margin-top: 7px;
+    margin-right: 70px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border:none;
+    width: 100px;
+    border-radius:0.5rem;
+}
+
+/* Food Section */
+
+.food-container{
+    width: 1000px;
+    margin: 5px 80px 80px 80px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-item{
+    height: 250px;
+    margin: 10px;
+    width: 200px;
+    border: #eee6cc salmon solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.food-item img{
+    height: 180px;
+    width: 100%;
+}
+.food-item h3{
+    text-align: center;
+}
+.food-item h4{
+    text-align: center;
 }
